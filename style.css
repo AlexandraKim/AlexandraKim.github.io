@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif; /*changing font-family for the whole document*/
+    font-size: 11pt;
+    background-color: #edeef1;
+}
+
+h1 {
+    font-family: Calibri;
+    font-size: 21pt;
+    margin-bottom: 10px;
+    text-align: center;
+    color: darkslategray;
+}
+
+p {
+    color: #828282;
+    font-size: 11pt;
+}
+
+.float-right {
+    float: right;
+}
+
+.font-small {
+    font-size: 9pt;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.btn {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.profile  {
+    text-align: center;
+}
+
+.profile ul {
+    text-align: left;
+}
+
+#profile-picture {
+    width: 30%;
+}
+
+.movies .item {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #edeef1;
+}
+
+.movies .item:hover {
+    background: #ffffff;
+    border: 1px solid #cecece;
+}
+
+.movies a {
+    color: #136C97;
+}
+
+.movies a:hover {
+    color: #136CFF;
+}
+.movies .item .descr a:first-child {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.movies .image {
+   margin-right: 25px;
+}
+
+.movies > a:last-child {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
