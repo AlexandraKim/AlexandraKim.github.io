@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+body {
+	font-family: 'Comfortaa', cursive;
+	background-color: #574e4f;
+	color: white;
+}
+
+.container {
+	width: 65%;
+	margin: auto;
+}
+
+.flex-row {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.col-50 {
+	width: 250px;
+	padding: 0 15px;
+}
+
+.col-50:first-child {
+	padding-left: 0px;
+}
+
+img {
+	width: 200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #c7d4cb;
+}
+
+h3 {
+	font-style: italic;
+}
+
+strong {
+	color: #e7db74;
+}
+
+a {
+	color: #67d6e7;
+}
+
+a:hover {
+	color: #ac80ff;
+}
