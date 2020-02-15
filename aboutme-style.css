@@ -43,8 +43,18 @@ strong {
 
 a {
 	color: #67d6e7;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #ac80ff;
+	text-decoration: underline;
+}
+
+p:first-letter {
+	font-size: 1.5em;
+}
+
+h5 {
+	margin-top: 0px;
 }
